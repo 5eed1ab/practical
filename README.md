@@ -197,6 +197,77 @@ extract : Gitea is a forge software package for hosting software development ver
 extract : In free and open-source software (FOSS) development communities, a forge is a web-based
           collaborative software platform for both developing and sharing computer applications.
 ```
+## Practical Ca7 C Example
+```bash 
+git config --global user.email ca7@5eed1ab.com
+git config --global user.name "Practical Ca7"Practical Ca7 C Example
+gcc -o practical practical.c
+./practical
+git add practical.c README.md
+git commit -m "Practical Ca7 C Example"
+git push
+```
+
+```markdown
+Hello Practical Ca7
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A 65 1000001 a  97 1100001
+B 66 1000010 b  98 1100010
+C 67 1000011 c  99 1100011
+D 68 1000100 d 100 1100100
+E 69 1000101 e 101 1100101
+F 70 1000110 f 102 1100110
+G 71 1000111 g 103 1100111
+H 72 1001000 h 104 1101000
+I 73 1001001 i 105 1101001
+J 74 1001010 j 106 1101010
+K 75 1001011 k 107 1101011
+L 76 1001100 l 108 1101100
+M 77 1001101 m 109 1101101
+N 78 1001110 n 110 1101110
+O 79 1001111 o 111 1101111
+P 80 1010000 p 112 1110000
+Q 81 1010001 q 113 1110001
+R 82 1010010 r 114 1110010
+S 83 1010011 s 115 1110011
+T 84 1010100 t 116 1110100
+U 85 1010101 u 117 1110101
+V 86 1010110 v 118 1110110
+W 87 1010111 w 119 1110111
+X 88 1011000 x 120 1111000
+Y 89 1011001 y 121 1111001
+Z 90 1011010 z 122 1111010
+
+pi = 3.14159274101257324219
+CHAR_MIN : -128
+CHAR_MAX : 127
+UCHAR_MAX : 255
+INT_MIN : -2147483648
+INT_MAX : 2147483647
+odometer : 2147483637
+odometer : 2147483638
+odometer : 2147483639
+odometer : 2147483640
+odometer : 2147483641
+odometer : 2147483642
+odometer : 2147483643
+odometer : 2147483644
+odometer : 2147483645
+odometer : 2147483646
+odometer : 2147483647
+odometer : -2147483648
+odometer : -2147483647
+odometer : -2147483646
+odometer : -2147483645
+odometer : -2147483644
+odometer : -2147483643
+odometer : -2147483642
+odometer : -2147483641
+odometer : -2147483640
+odometer : -2147483639
+odometer : -2147483638
+```
 ## Inspiration
 - [Arithmetic for the Practical Man](https://dn790009.ca.archive.org/0/items/in.ernet.dli.2015.463129/2015.463129.Arithmetic-For.pdf)
 - [Algebra for the Practical Man](https://dn790003.ca.archive.org/0/items/j.e.thompsonalgebraforthepracticalman/J._E._Thompson_Algebra_for_the_Practical_Man.pdf)
