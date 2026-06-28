@@ -1,5 +1,5 @@
 # Computing
-## For the Practical Cat
+## For the Practical Ca7
 ![Ca7header](https://5eed1ab.com/images/Ca7header.jpg)
 ```powershell
 $computing = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/Computing
