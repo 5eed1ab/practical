@@ -1,6 +1,6 @@
 # Computing
-For the Practical Cat
-
+## For the Practical Cat
+![Ca7header](https://5eed1ab.com/images/Ca7header.jpg)
 ```powershell
 $computing = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/Computing
 $practical = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/practical
