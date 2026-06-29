@@ -1,6 +1,121 @@
 # Computing
 ## For the Practical Ca7
 ![Ca7header](https://5eed1ab.com/images/Ca7header.jpg)
+
+`curl --silent https://en.wikipedia.org/api/rest_v1/page/summary/information_theory |jq '{title,description,extract}'`
+|title|Information theory|
+|--:|:--|
+|description|Scientific study of digital information|
+|extract|Information theory is the mathematical study of the quantification, storage, and communication of a particular type of mathematically defined information. The field was established and formalized by Claude Shannon in the 1940s, though early contributions were made in the 1920s through the works of Harry Nyquist and Ralph Hartley."|
+
+## [A Mathematical Theory of Communication](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
+### Need help from J.E. Thompson to understand Claude Shannon's paper
+- [Arithmetic for the Practical Man](https://dn790009.ca.archive.org/0/items/in.ernet.dli.2015.463129/2015.463129.Arithmetic-For.pdf)
+- [Algebra for the Practical Man](https://dn790003.ca.archive.org/0/items/j.e.thompsonalgebraforthepracticalman/J._E._Thompson_Algebra_for_the_Practical_Man.pdf)
+- [Trigonometry for the Practical man](https://www.rexresearch1.com/TrigonometryLibrary/TrigonometryPracticalManThompson.pdf)
+- [Calculus: For the Practical Man](https://dn760107.eu.archive.org/0/items/in.ernet.dli.2015.462654/2015.462654.Calculus--.pdf)
+
+
+## Collection of relevant topics
+```
+title                       description
+-----                       -----------
+Information theory          Scientific study of digital information
+Computing                   Activity involving calculations or computing machinery
+Pragmatism                  Philosophical tradition
+Cat                         Small domesticated carnivorous mammal
+Decimal                     Number in base-10 numeral system
+Binary number               Number expressed in the base-2 numeral system
+Bit                         Unit of information
+Byte                        Unit of digital information, usually 8 bits
+ASCII                       Character encoding standard
+C (programming language)    General-purpose programming language
+Unix                        Family of computer operating systems
+OpenZFS                     Open-source implementation of ZFS file system
+Git                         Distributed version control software system
+ThinkPad                    Business laptops and tablets series from Lenovo
+Windows Subsystem for Linux Feature for a Linux environment in Windows
+Arch Linux                  Rolling release Linux distribution
+Hyper-V                     Native hypervisor by Microsoft
+FreeBSD                     Free and open-source Unix-like operating system
+Gitea                       Free forge based on Git written in Go
+Forge (software)            Platform for developing computer applications
+```
+
+## Practical Ca7 C Example
+avoid cut-in-paste, The more you type the faster you get. Taking time to type the examples yourself actually accelerates retention. To encourage this, code examles will be images.
+
+![practical.c-v0.1.1](https://5eed1ab.com//images/practical.c-v0.1.1.png)
+```bash 
+git config --global user.email ca7@5eed1ab.com
+git config --global user.name "Practical Ca7"Practical Ca7 C Example
+gcc -o practical practical.c
+./practical
+git add practical.c README.md
+git commit -m "Practical Ca7 C Example"
+git push
+```
+
+```markdown
+Hello Practical Ca7
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A 65 1000001 a  97 1100001
+B 66 1000010 b  98 1100010
+C 67 1000011 c  99 1100011
+D 68 1000100 d 100 1100100
+E 69 1000101 e 101 1100101
+F 70 1000110 f 102 1100110
+G 71 1000111 g 103 1100111
+H 72 1001000 h 104 1101000
+I 73 1001001 i 105 1101001
+J 74 1001010 j 106 1101010
+K 75 1001011 k 107 1101011
+L 76 1001100 l 108 1101100
+M 77 1001101 m 109 1101101
+N 78 1001110 n 110 1101110
+O 79 1001111 o 111 1101111
+P 80 1010000 p 112 1110000
+Q 81 1010001 q 113 1110001
+R 82 1010010 r 114 1110010
+S 83 1010011 s 115 1110011
+T 84 1010100 t 116 1110100
+U 85 1010101 u 117 1110101
+V 86 1010110 v 118 1110110
+W 87 1010111 w 119 1110111
+X 88 1011000 x 120 1111000
+Y 89 1011001 y 121 1111001
+Z 90 1011010 z 122 1111010
+
+pi = 3.14159274101257324219
+CHAR_MIN : -128
+CHAR_MAX : 127
+UCHAR_MAX : 255
+INT_MIN : -2147483648
+INT_MAX : 2147483647
+odometer : 2147483637
+odometer : 2147483638
+odometer : 2147483639
+odometer : 2147483640
+odometer : 2147483641
+odometer : 2147483642
+odometer : 2147483643
+odometer : 2147483644
+odometer : 2147483645
+odometer : 2147483646
+odometer : 2147483647
+odometer : -2147483648
+odometer : -2147483647
+odometer : -2147483646
+odometer : -2147483645
+odometer : -2147483644
+odometer : -2147483643
+odometer : -2147483642
+odometer : -2147483641
+odometer : -2147483640
+odometer : -2147483639
+odometer : -2147483638
+```
 ```powershell
 $computing = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/Computing
 $practical = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/practical
@@ -26,31 +141,7 @@ $forge = Invoke-RestMethod 'https://en.wikipedia.org/api/rest_v1/page/summary/Fo
 $list = @($computing,$practical,$cat,$it,$decimal,$binary,$bit,$byte,$ascii,$c,$unix,$git,$thinkpad,$WSL,$archlinux,$HyperV,$freebsd,$openzfs,$gitea,$forge)
 ```
 
-## `$list | % {$_ | select title,description}`
-```
-title                       description
------                       -----------
-Computing                   Activity involving calculations or computing machinery
-Pragmatism                  Philosophical tradition
-Cat                         Small domesticated carnivorous mammal
-Information theory          Scientific study of digital information
-Decimal                     Number in base-10 numeral system
-Binary number               Number expressed in the base-2 numeral system
-Bit                         Unit of information
-Byte                        Unit of digital information, usually 8 bits
-ASCII                       Character encoding standard
-C (programming language)    General-purpose programming language
-Unix                        Family of computer operating systems
-OpenZFS                     Open-source implementation of ZFS file system
-Git                         Distributed version control software system
-ThinkPad                    Business laptops and tablets series from Lenovo
-Windows Subsystem for Linux Feature for a Linux environment in Windows
-Arch Linux                  Rolling release Linux distribution
-Hyper-V                     Native hypervisor by Microsoft
-FreeBSD                     Free and open-source Unix-like operating system
-Gitea                       Free forge based on Git written in Go
-Forge (software)            Platform for developing computer applications
-```
+
 ## `$list | % {$_ | fl extract}`
 ```
 extract : Computing is any goal-oriented activity that requires, benefits from, or creates computing
@@ -197,79 +288,4 @@ extract : Gitea is a forge software package for hosting software development ver
 extract : In free and open-source software (FOSS) development communities, a forge is a web-based
           collaborative software platform for both developing and sharing computer applications.
 ```
-## Practical Ca7 C Example
-```bash 
-git config --global user.email ca7@5eed1ab.com
-git config --global user.name "Practical Ca7"Practical Ca7 C Example
-gcc -o practical practical.c
-./practical
-git add practical.c README.md
-git commit -m "Practical Ca7 C Example"
-git push
-```
 
-```markdown
-Hello Practical Ca7
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A 65 1000001 a  97 1100001
-B 66 1000010 b  98 1100010
-C 67 1000011 c  99 1100011
-D 68 1000100 d 100 1100100
-E 69 1000101 e 101 1100101
-F 70 1000110 f 102 1100110
-G 71 1000111 g 103 1100111
-H 72 1001000 h 104 1101000
-I 73 1001001 i 105 1101001
-J 74 1001010 j 106 1101010
-K 75 1001011 k 107 1101011
-L 76 1001100 l 108 1101100
-M 77 1001101 m 109 1101101
-N 78 1001110 n 110 1101110
-O 79 1001111 o 111 1101111
-P 80 1010000 p 112 1110000
-Q 81 1010001 q 113 1110001
-R 82 1010010 r 114 1110010
-S 83 1010011 s 115 1110011
-T 84 1010100 t 116 1110100
-U 85 1010101 u 117 1110101
-V 86 1010110 v 118 1110110
-W 87 1010111 w 119 1110111
-X 88 1011000 x 120 1111000
-Y 89 1011001 y 121 1111001
-Z 90 1011010 z 122 1111010
-
-pi = 3.14159274101257324219
-CHAR_MIN : -128
-CHAR_MAX : 127
-UCHAR_MAX : 255
-INT_MIN : -2147483648
-INT_MAX : 2147483647
-odometer : 2147483637
-odometer : 2147483638
-odometer : 2147483639
-odometer : 2147483640
-odometer : 2147483641
-odometer : 2147483642
-odometer : 2147483643
-odometer : 2147483644
-odometer : 2147483645
-odometer : 2147483646
-odometer : 2147483647
-odometer : -2147483648
-odometer : -2147483647
-odometer : -2147483646
-odometer : -2147483645
-odometer : -2147483644
-odometer : -2147483643
-odometer : -2147483642
-odometer : -2147483641
-odometer : -2147483640
-odometer : -2147483639
-odometer : -2147483638
-```
-## Inspiration
-- [Arithmetic for the Practical Man](https://dn790009.ca.archive.org/0/items/in.ernet.dli.2015.463129/2015.463129.Arithmetic-For.pdf)
-- [Algebra for the Practical Man](https://dn790003.ca.archive.org/0/items/j.e.thompsonalgebraforthepracticalman/J._E._Thompson_Algebra_for_the_Practical_Man.pdf)
-- [Trigonometry for the Practical man](https://www.rexresearch1.com/TrigonometryLibrary/TrigonometryPracticalManThompson.pdf)
-- [Calculus: For the Practical Man](https://dn760107.eu.archive.org/0/items/in.ernet.dli.2015.462654/2015.462654.Calculus--.pdf)
