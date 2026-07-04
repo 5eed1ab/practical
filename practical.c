@@ -1,3 +1,13 @@
+/*
+▒▒░░░░░   ░▒▓█████▒░░░  ░░  ░░▓▒▒ ░▒▒░ ░░▓▓░░▓▒░░░░ ▒░ ░  ▒████████▓▒░ ░░░░░░░▒▒
+▒▒▒░░░░░░▒███▓▓▒▒▒▓███▒░    ░▒▒░▒░░▓ ░░░▒▒▒▓▓▓▓▒░ ░░░░▒████▒▓░▓▓▓▓██▓░░░▓▒░░░░▒▒
+░▒▒░░░░░ ░▓█▒░░▒▒ ░█░▒▓█▓░░   ░▓▒░▒░▒▒░░░░░▒▒█▓░░░░░▓███▒░█░▒▒░ ░░▓▓░   ░▒▓▒░▒▒░
+▒░░░░░░░  ▒█░  ░░░███░▒▒▒▒░░  ░▒▒░▒▒▒░░░░░▒▒▓▓▒░ ░░█▓▓▒▒▒███░░░░  █▒      ░░▒▒▒▒
+▓░▒▒░░░░ ░ ░▓░  ░░███░░░░░█░  ░░░▒░░░░░░░▒▒▒▓▓▒ ░░▒██▒░▒░███░░░░ ▓▒    ░ ░░▒▓▓▒▒
+▒░░▒░░░     ░▒▓  ░ █░░░ ░██▓░░░▒▒░ ░   ░░░▒░▒▒▒░░░▓██▓░░▒░█ ░░ ▓░   ░░░░ ░░▒▓▓▒▒
+▒░░▒▒▒░░░░      ▒▓▒▒▓▓▓▓▓▒▒▒░░▒░░░░░░░░░░▒▒▒▓▓▒▒▒▒▓▓▒▓▒▓▓▓▓▓░░     ░░░░░▒░▒▓▓▓▓▒
+*/
+
 #include<stdio.h>
 #include<math.h>
 #include<limits.h>
@@ -5,7 +15,7 @@ int main(){
 	printf("Hello Practical Ca7\n");
 	int i = 0;
 	float pi = 4 * atan(1.0);
-	char charactor = 65;
+	char character = 65;
 	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	printf("%s\n",alphabet);
 	while(alphabet[i] != '\0'){
@@ -15,8 +25,8 @@ int main(){
 	printf("\n");
 	for(i=0;i<26;i++){
 	  printf("%c %d %b %c %3d %b\n",
-	          charactor+i,charactor+i,charactor+i,
-	          charactor+32+i,charactor+32+i,charactor+32+i
+	          character+i,character+i,character+i,
+	          character+32+i,character+32+i,character+32+i
 		  );
 	}
 	printf("\n");
