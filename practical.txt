@@ -1,0 +1,62 @@
+Darwin xiv 24.6.0 Darwin Kernel Version 24.6.0: Tue Apr 21 20:19:01 PDT 2026; root:xnu-11417.140.69.710.16~1/RELEASE_ARM64_T6000 arm64
+
+clang --version
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-darwin24.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+git/practical -b 1000001 > clang -Wall -g -o practical practical.c ; ./practical > practical.txt
+Practical Ca7                                                            1000001
+▒▒░░░░░   ░▒▓█████▒░░░  ░░  ░░▓▒▒ ░▒▒░ ░░▓▓░░▓▒░░░░ ▒░ ░  ▒████████▓▒░ ░░░░░░░▒▒
+▒▒▒░░░░░░▒███▓▓▒▒▒▓███▒░    ░▒▒░▒░░▓ ░░░▒▒▒▓▓▓▓▒░ ░░░░▒████▒▓░▓▓▓▓██▓░░░▓▒░░░░▒▒
+░▒▒░░░░░ ░▓█▒░░▒▒ ░█░▒▓█▓░░   ░▓▒░▒░▒▒░░░░░▒▒█▓░░░░░▓███▒░█░▒▒░ ░░▓▓░   ░▒▓▒░▒▒░
+▒░░░░░░░  ▒█░  ░░░███░▒▒▒▒░░  ░▒▒░▒▒▒░░░░░▒▒▓▓▒░ ░░█▓▓▒▒▒███░░░░  █▒      ░░▒▒▒▒
+▓░▒▒░░░░ ░ ░▓░  ░░███░░░░░█░  ░░░▒░░░░░░░▒▒▒▓▓▒ ░░▒██▒░▒░███░░░░ ▓▒    ░ ░░▒▓▓▒▒
+▒░░▒░░░     ░▒▓  ░ █░░░ ░██▓░░░▒▒░ ░   ░░░▒░▒▒▒░░░▓██▓░░▒░█ ░░ ▓░   ░░░░ ░░▒▓▓▒▒
+▒░░▒▒▒░░░░      ▒▓▒▒▓▓▓▓▓▒▒▒░░▒░░░░░░░░░░▒▒▒▓▓▒▒▒▒▓▓▒▓▒▓▓▓▓▓░░     ░░░░░▒░▒▓▓▓▓▒
+ABCDEFGHIJKLMNOPQRSTUVWXYZ: printf %s alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ABCDEFGHIJKLMNOPQRSTUVWXYZ: loop through alphabet[i] until '\0' null terminator
+
+for loop adding 1 each pass 26 times
+A → 65 → b |  A →  97 → b
+B → 66 → b |  B →  98 → b
+C → 67 → b |  C →  99 → b
+D → 68 → b |  D → 100 → b
+E → 69 → b |  E → 101 → b
+F → 70 → b |  F → 102 → b
+G → 71 → b |  G → 103 → b
+H → 72 → b |  H → 104 → b
+I → 73 → b |  I → 105 → b
+J → 74 → b |  J → 106 → b
+K → 75 → b |  K → 107 → b
+L → 76 → b |  L → 108 → b
+M → 77 → b |  M → 109 → b
+N → 78 → b |  N → 110 → b
+O → 79 → b |  O → 111 → b
+P → 80 → b |  P → 112 → b
+Q → 81 → b |  Q → 113 → b
+R → 82 → b |  R → 114 → b
+S → 83 → b |  S → 115 → b
+T → 84 → b |  T → 116 → b
+U → 85 → b |  U → 117 → b
+V → 86 → b |  V → 118 → b
+W → 87 → b |  W → 119 → b
+X → 88 → b |  X → 120 → b
+Y → 89 → b |  Y → 121 → b
+Z → 90 → b |  Z → 122 → b
+
+Using math.h for float pi = 4 * atan(1.0)
+pi = 3.14159274101257324219
+
+Using limits.h to discover: 
+INT_MAX :  2147483647
+INT_MIN : -2147483648
+
+Odometer is an example of an integer overflow.
+odometer : 2147483645
+odometer : 2147483646
+odometer : 2147483647
+odometer : -2147483648
+odometer : -2147483647
+odometer : -2147483646
