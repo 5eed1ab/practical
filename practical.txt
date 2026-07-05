@@ -1,12 +1,3 @@
-Darwin xiv 24.6.0 Darwin Kernel Version 24.6.0: Tue Apr 21 20:19:01 PDT 2026; root:xnu-11417.140.69.710.16~1/RELEASE_ARM64_T6000 arm64
-
-clang --version
-Apple clang version 17.0.0 (clang-1700.6.3.2)
-Target: arm64-apple-darwin24.6.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-
-git/practical -b 1000001 > clang -Wall -g -o practical practical.c ; ./practical > practical.txt
 Practical Ca7                                                            1000001
 ▒▒░░░░░   ░▒▓█████▒░░░  ░░  ░░▓▒▒ ░▒▒░ ░░▓▓░░▓▒░░░░ ▒░ ░  ▒████████▓▒░ ░░░░░░░▒▒
 ▒▒▒░░░░░░▒███▓▓▒▒▒▓███▒░    ░▒▒░▒░░▓ ░░░▒▒▒▓▓▓▓▒░ ░░░░▒████▒▓░▓▓▓▓██▓░░░▓▒░░░░▒▒
@@ -19,32 +10,32 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ: printf %s alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 ABCDEFGHIJKLMNOPQRSTUVWXYZ: loop through alphabet[i] until '\0' null terminator
 
 for loop adding 1 each pass 26 times
-A → 65 → b |  A →  97 → b
-B → 66 → b |  B →  98 → b
-C → 67 → b |  C →  99 → b
-D → 68 → b |  D → 100 → b
-E → 69 → b |  E → 101 → b
-F → 70 → b |  F → 102 → b
-G → 71 → b |  G → 103 → b
-H → 72 → b |  H → 104 → b
-I → 73 → b |  I → 105 → b
-J → 74 → b |  J → 106 → b
-K → 75 → b |  K → 107 → b
-L → 76 → b |  L → 108 → b
-M → 77 → b |  M → 109 → b
-N → 78 → b |  N → 110 → b
-O → 79 → b |  O → 111 → b
-P → 80 → b |  P → 112 → b
-Q → 81 → b |  Q → 113 → b
-R → 82 → b |  R → 114 → b
-S → 83 → b |  S → 115 → b
-T → 84 → b |  T → 116 → b
-U → 85 → b |  U → 117 → b
-V → 86 → b |  V → 118 → b
-W → 87 → b |  W → 119 → b
-X → 88 → b |  X → 120 → b
-Y → 89 → b |  Y → 121 → b
-Z → 90 → b |  Z → 122 → b
+A → 65 → 1000001 |  a →  97 → 1100001
+B → 66 → 1000010 |  b →  98 → 1100010
+C → 67 → 1000011 |  c →  99 → 1100011
+D → 68 → 1000100 |  d → 100 → 1100100
+E → 69 → 1000101 |  e → 101 → 1100101
+F → 70 → 1000110 |  f → 102 → 1100110
+G → 71 → 1000111 |  g → 103 → 1100111
+H → 72 → 1001000 |  h → 104 → 1101000
+I → 73 → 1001001 |  i → 105 → 1101001
+J → 74 → 1001010 |  j → 106 → 1101010
+K → 75 → 1001011 |  k → 107 → 1101011
+L → 76 → 1001100 |  l → 108 → 1101100
+M → 77 → 1001101 |  m → 109 → 1101101
+N → 78 → 1001110 |  n → 110 → 1101110
+O → 79 → 1001111 |  o → 111 → 1101111
+P → 80 → 1010000 |  p → 112 → 1110000
+Q → 81 → 1010001 |  q → 113 → 1110001
+R → 82 → 1010010 |  r → 114 → 1110010
+S → 83 → 1010011 |  s → 115 → 1110011
+T → 84 → 1010100 |  t → 116 → 1110100
+U → 85 → 1010101 |  u → 117 → 1110101
+V → 86 → 1010110 |  v → 118 → 1110110
+W → 87 → 1010111 |  w → 119 → 1110111
+X → 88 → 1011000 |  x → 120 → 1111000
+Y → 89 → 1011001 |  y → 121 → 1111001
+Z → 90 → 1011010 |  z → 122 → 1111010
 
 Using math.h for float pi = 4 * atan(1.0)
 pi = 3.14159274101257324219
@@ -54,9 +45,16 @@ INT_MAX :  2147483647
 INT_MIN : -2147483648
 
 Odometer is an example of an integer overflow.
-odometer : 2147483645
-odometer : 2147483646
-odometer : 2147483647
+odometer :  2147483645
+odometer :  2147483646
+odometer :  2147483647
 odometer : -2147483648
 odometer : -2147483647
 odometer : -2147483646
+
+gcc (GCC) 16.1.1 20260515 (Red Hat 16.1.1-2)
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Linux E16 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
