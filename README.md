@@ -43,18 +43,11 @@ Forge (software)            Platform for developing computer applications
 ```
 
 ## Practical Ca7 C Example
-avoid cut-in-paste, The more you type the faster you get. Taking time to type the examples yourself actually accelerates retention. To encourage this, code examles will be images.
+- avoid cut-in-paste, The more you type the faster you get. Taking time to type the examples yourself actually accelerates retention. To encourage this, code examles will be images.
+- asciiCa7 generated from uploading Ca7header.jpg to [Image to ASCII Art](https://www.asciiart.eu/image-to-ascii)
 
-![practical.c-v0.1.1](https://5eed1ab.com//images/practical.c-v0.1.1.png)
-```bash 
-git config --global user.email ca7@5eed1ab.com
-git config --global user.name "Practical Ca7"Practical Ca7 C Example
-gcc -o practical practical.c
-./practical
-git add practical.c README.md
-git commit -m "Practical Ca7 C Example"
-git push
-```
+![practical.c-v0.1.2](https://5eed1ab.com/images/practical.c-v0.1.2.png)
+### `cd git/practical;make;./practical`
 
 ```markdown
 Practical Ca7                                                            1000001
