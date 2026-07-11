@@ -91,7 +91,7 @@ void Odometer()
   */
   int i;
   for(i=INT_MAX-2;i<=INT_MAX;i++){
-    printf("i: %p → %11i\n", (void *)&i,i);
+    printf("i: %p → %11i → %032b\n", (void *)&i,i,i);
     if(i==INT_MIN+2){
       break;
     }
