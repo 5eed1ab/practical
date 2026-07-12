@@ -58,65 +58,65 @@ Practical Ca7                                                            1000001
 ▓░▒▒░░░░ ░ ░▓░  ░░███░░░░░█░  ░░░▒░░░░░░░▒▒▒▓▓▒ ░░▒██▒░▒░███░░░░ ▓▒    ░ ░░▒▓▓▒▒
 ▒░░▒░░░     ░▒▓  ░ █░░░ ░██▓░░░▒▒░ ░   ░░░▒░▒▒▒░░░▓██▓░░▒░█ ░░ ▓░   ░░░░ ░░▒▓▓▒▒
 ▒░░▒▒▒░░░░      ▒▓▒▒▓▓▓▓▓▒▒▒░░▒░░░░░░░░░░▒▒▒▓▓▒▒▒▒▓▓▒▓▒▓▓▓▓▓░░     ░░░░░▒░▒▓▓▓▓▒
-character: 0xfffffc8622f7 → A → 65
+character: 0xffffc5e25077 → A → 65
 ABCDEFGHIJKLMNOPQRSTUVWXYZ ## alphabet with printf %s
 ABCDEFGHIJKLMNOPQRSTUVWXYZ ## alphabet[i] with while until '\0' null terminator
- ## alphabet[i] with for(i=0;i<26;i++): address → char → decimal → binary
-0xfffffc8622d8 → A → 65 → 1000001 | 0xfffffc8622d7 → a →  97 → 1100001
-0xfffffc8622d9 → B → 66 → 1000010 | 0xfffffc8622d7 → b →  98 → 1100010
-0xfffffc8622da → C → 67 → 1000011 | 0xfffffc8622d7 → c →  99 → 1100011
-0xfffffc8622db → D → 68 → 1000100 | 0xfffffc8622d7 → d → 100 → 1100100
-0xfffffc8622dc → E → 69 → 1000101 | 0xfffffc8622d7 → e → 101 → 1100101
-0xfffffc8622dd → F → 70 → 1000110 | 0xfffffc8622d7 → f → 102 → 1100110
-0xfffffc8622de → G → 71 → 1000111 | 0xfffffc8622d7 → g → 103 → 1100111
-0xfffffc8622df → H → 72 → 1001000 | 0xfffffc8622d7 → h → 104 → 1101000
-0xfffffc8622e0 → I → 73 → 1001001 | 0xfffffc8622d7 → i → 105 → 1101001
-0xfffffc8622e1 → J → 74 → 1001010 | 0xfffffc8622d7 → j → 106 → 1101010
-0xfffffc8622e2 → K → 75 → 1001011 | 0xfffffc8622d7 → k → 107 → 1101011
-0xfffffc8622e3 → L → 76 → 1001100 | 0xfffffc8622d7 → l → 108 → 1101100
-0xfffffc8622e4 → M → 77 → 1001101 | 0xfffffc8622d7 → m → 109 → 1101101
-0xfffffc8622e5 → N → 78 → 1001110 | 0xfffffc8622d7 → n → 110 → 1101110
-0xfffffc8622e6 → O → 79 → 1001111 | 0xfffffc8622d7 → o → 111 → 1101111
-0xfffffc8622e7 → P → 80 → 1010000 | 0xfffffc8622d7 → p → 112 → 1110000
-0xfffffc8622e8 → Q → 81 → 1010001 | 0xfffffc8622d7 → q → 113 → 1110001
-0xfffffc8622e9 → R → 82 → 1010010 | 0xfffffc8622d7 → r → 114 → 1110010
-0xfffffc8622ea → S → 83 → 1010011 | 0xfffffc8622d7 → s → 115 → 1110011
-0xfffffc8622eb → T → 84 → 1010100 | 0xfffffc8622d7 → t → 116 → 1110100
-0xfffffc8622ec → U → 85 → 1010101 | 0xfffffc8622d7 → u → 117 → 1110101
-0xfffffc8622ed → V → 86 → 1010110 | 0xfffffc8622d7 → v → 118 → 1110110
-0xfffffc8622ee → W → 87 → 1010111 | 0xfffffc8622d7 → w → 119 → 1110111
-0xfffffc8622ef → X → 88 → 1011000 | 0xfffffc8622d7 → x → 120 → 1111000
-0xfffffc8622f0 → Y → 89 → 1011001 | 0xfffffc8622d7 → y → 121 → 1111001
-0xfffffc8622f1 → Z → 90 → 1011010 | 0xfffffc8622d7 → z → 122 → 1111010
+ ## alphabet[i] with for(i=0;i<26;i++): address → char → decimal → hex → binary
+0xffffc5e25058 → A → 65 → 41 → 1000001 | 0xffffc5e25057 → a →  97 → 61 → 1100001
+0xffffc5e25059 → B → 66 → 42 → 1000010 | 0xffffc5e25057 → b →  98 → 62 → 1100010
+0xffffc5e2505a → C → 67 → 43 → 1000011 | 0xffffc5e25057 → c →  99 → 63 → 1100011
+0xffffc5e2505b → D → 68 → 44 → 1000100 | 0xffffc5e25057 → d → 100 → 64 → 1100100
+0xffffc5e2505c → E → 69 → 45 → 1000101 | 0xffffc5e25057 → e → 101 → 65 → 1100101
+0xffffc5e2505d → F → 70 → 46 → 1000110 | 0xffffc5e25057 → f → 102 → 66 → 1100110
+0xffffc5e2505e → G → 71 → 47 → 1000111 | 0xffffc5e25057 → g → 103 → 67 → 1100111
+0xffffc5e2505f → H → 72 → 48 → 1001000 | 0xffffc5e25057 → h → 104 → 68 → 1101000
+0xffffc5e25060 → I → 73 → 49 → 1001001 | 0xffffc5e25057 → i → 105 → 69 → 1101001
+0xffffc5e25061 → J → 74 → 4a → 1001010 | 0xffffc5e25057 → j → 106 → 6a → 1101010
+0xffffc5e25062 → K → 75 → 4b → 1001011 | 0xffffc5e25057 → k → 107 → 6b → 1101011
+0xffffc5e25063 → L → 76 → 4c → 1001100 | 0xffffc5e25057 → l → 108 → 6c → 1101100
+0xffffc5e25064 → M → 77 → 4d → 1001101 | 0xffffc5e25057 → m → 109 → 6d → 1101101
+0xffffc5e25065 → N → 78 → 4e → 1001110 | 0xffffc5e25057 → n → 110 → 6e → 1101110
+0xffffc5e25066 → O → 79 → 4f → 1001111 | 0xffffc5e25057 → o → 111 → 6f → 1101111
+0xffffc5e25067 → P → 80 → 50 → 1010000 | 0xffffc5e25057 → p → 112 → 70 → 1110000
+0xffffc5e25068 → Q → 81 → 51 → 1010001 | 0xffffc5e25057 → q → 113 → 71 → 1110001
+0xffffc5e25069 → R → 82 → 52 → 1010010 | 0xffffc5e25057 → r → 114 → 72 → 1110010
+0xffffc5e2506a → S → 83 → 53 → 1010011 | 0xffffc5e25057 → s → 115 → 73 → 1110011
+0xffffc5e2506b → T → 84 → 54 → 1010100 | 0xffffc5e25057 → t → 116 → 74 → 1110100
+0xffffc5e2506c → U → 85 → 55 → 1010101 | 0xffffc5e25057 → u → 117 → 75 → 1110101
+0xffffc5e2506d → V → 86 → 56 → 1010110 | 0xffffc5e25057 → v → 118 → 76 → 1110110
+0xffffc5e2506e → W → 87 → 57 → 1010111 | 0xffffc5e25057 → w → 119 → 77 → 1110111
+0xffffc5e2506f → X → 88 → 58 → 1011000 | 0xffffc5e25057 → x → 120 → 78 → 1111000
+0xffffc5e25070 → Y → 89 → 59 → 1011001 | 0xffffc5e25057 → y → 121 → 79 → 1111001
+0xffffc5e25071 → Z → 90 → 5a → 1011010 | 0xffffc5e25057 → z → 122 → 7a → 1111010
  ## character with for(character=65;character<91;character++):
-0xfffffc8622f7 → A → 65 → 1000001 | 0xfffffc8622d6 → a →  97 → 1100001
-0xfffffc8622f7 → B → 66 → 1000010 | 0xfffffc8622d6 → b →  98 → 1100010
-0xfffffc8622f7 → C → 67 → 1000011 | 0xfffffc8622d6 → c →  99 → 1100011
-0xfffffc8622f7 → D → 68 → 1000100 | 0xfffffc8622d6 → d → 100 → 1100100
-0xfffffc8622f7 → E → 69 → 1000101 | 0xfffffc8622d6 → e → 101 → 1100101
-0xfffffc8622f7 → F → 70 → 1000110 | 0xfffffc8622d6 → f → 102 → 1100110
-0xfffffc8622f7 → G → 71 → 1000111 | 0xfffffc8622d6 → g → 103 → 1100111
-0xfffffc8622f7 → H → 72 → 1001000 | 0xfffffc8622d6 → h → 104 → 1101000
-0xfffffc8622f7 → I → 73 → 1001001 | 0xfffffc8622d6 → i → 105 → 1101001
-0xfffffc8622f7 → J → 74 → 1001010 | 0xfffffc8622d6 → j → 106 → 1101010
-0xfffffc8622f7 → K → 75 → 1001011 | 0xfffffc8622d6 → k → 107 → 1101011
-0xfffffc8622f7 → L → 76 → 1001100 | 0xfffffc8622d6 → l → 108 → 1101100
-0xfffffc8622f7 → M → 77 → 1001101 | 0xfffffc8622d6 → m → 109 → 1101101
-0xfffffc8622f7 → N → 78 → 1001110 | 0xfffffc8622d6 → n → 110 → 1101110
-0xfffffc8622f7 → O → 79 → 1001111 | 0xfffffc8622d6 → o → 111 → 1101111
-0xfffffc8622f7 → P → 80 → 1010000 | 0xfffffc8622d6 → p → 112 → 1110000
-0xfffffc8622f7 → Q → 81 → 1010001 | 0xfffffc8622d6 → q → 113 → 1110001
-0xfffffc8622f7 → R → 82 → 1010010 | 0xfffffc8622d6 → r → 114 → 1110010
-0xfffffc8622f7 → S → 83 → 1010011 | 0xfffffc8622d6 → s → 115 → 1110011
-0xfffffc8622f7 → T → 84 → 1010100 | 0xfffffc8622d6 → t → 116 → 1110100
-0xfffffc8622f7 → U → 85 → 1010101 | 0xfffffc8622d6 → u → 117 → 1110101
-0xfffffc8622f7 → V → 86 → 1010110 | 0xfffffc8622d6 → v → 118 → 1110110
-0xfffffc8622f7 → W → 87 → 1010111 | 0xfffffc8622d6 → w → 119 → 1110111
-0xfffffc8622f7 → X → 88 → 1011000 | 0xfffffc8622d6 → x → 120 → 1111000
-0xfffffc8622f7 → Y → 89 → 1011001 | 0xfffffc8622d6 → y → 121 → 1111001
-0xfffffc8622f7 → Z → 90 → 1011010 | 0xfffffc8622d6 → z → 122 → 1111010
+0xffffc5e25077 → A → 65 → 41 → 1000001 | 0xffffc5e25056 → a →  97 → 61 → 1100001
+0xffffc5e25077 → B → 66 → 42 → 1000010 | 0xffffc5e25056 → b →  98 → 62 → 1100010
+0xffffc5e25077 → C → 67 → 43 → 1000011 | 0xffffc5e25056 → c →  99 → 63 → 1100011
+0xffffc5e25077 → D → 68 → 44 → 1000100 | 0xffffc5e25056 → d → 100 → 64 → 1100100
+0xffffc5e25077 → E → 69 → 45 → 1000101 | 0xffffc5e25056 → e → 101 → 65 → 1100101
+0xffffc5e25077 → F → 70 → 46 → 1000110 | 0xffffc5e25056 → f → 102 → 66 → 1100110
+0xffffc5e25077 → G → 71 → 47 → 1000111 | 0xffffc5e25056 → g → 103 → 67 → 1100111
+0xffffc5e25077 → H → 72 → 48 → 1001000 | 0xffffc5e25056 → h → 104 → 68 → 1101000
+0xffffc5e25077 → I → 73 → 49 → 1001001 | 0xffffc5e25056 → i → 105 → 69 → 1101001
+0xffffc5e25077 → J → 74 → 4a → 1001010 | 0xffffc5e25056 → j → 106 → 6a → 1101010
+0xffffc5e25077 → K → 75 → 4b → 1001011 | 0xffffc5e25056 → k → 107 → 6b → 1101011
+0xffffc5e25077 → L → 76 → 4c → 1001100 | 0xffffc5e25056 → l → 108 → 6c → 1101100
+0xffffc5e25077 → M → 77 → 4d → 1001101 | 0xffffc5e25056 → m → 109 → 6d → 1101101
+0xffffc5e25077 → N → 78 → 4e → 1001110 | 0xffffc5e25056 → n → 110 → 6e → 1101110
+0xffffc5e25077 → O → 79 → 4f → 1001111 | 0xffffc5e25056 → o → 111 → 6f → 1101111
+0xffffc5e25077 → P → 80 → 50 → 1010000 | 0xffffc5e25056 → p → 112 → 70 → 1110000
+0xffffc5e25077 → Q → 81 → 51 → 1010001 | 0xffffc5e25056 → q → 113 → 71 → 1110001
+0xffffc5e25077 → R → 82 → 52 → 1010010 | 0xffffc5e25056 → r → 114 → 72 → 1110010
+0xffffc5e25077 → S → 83 → 53 → 1010011 | 0xffffc5e25056 → s → 115 → 73 → 1110011
+0xffffc5e25077 → T → 84 → 54 → 1010100 | 0xffffc5e25056 → t → 116 → 74 → 1110100
+0xffffc5e25077 → U → 85 → 55 → 1010101 | 0xffffc5e25056 → u → 117 → 75 → 1110101
+0xffffc5e25077 → V → 86 → 56 → 1010110 | 0xffffc5e25056 → v → 118 → 76 → 1110110
+0xffffc5e25077 → W → 87 → 57 → 1010111 | 0xffffc5e25056 → w → 119 → 77 → 1110111
+0xffffc5e25077 → X → 88 → 58 → 1011000 | 0xffffc5e25056 → x → 120 → 78 → 1111000
+0xffffc5e25077 → Y → 89 → 59 → 1011001 | 0xffffc5e25056 → y → 121 → 79 → 1111001
+0xffffc5e25077 → Z → 90 → 5a → 1011010 | 0xffffc5e25056 → z → 122 → 7a → 1111010
 
-character: 0xfffffc8622f7 → [ → 91 after for loop
+character: 0xffffc5e25077 → [ → 91 after for loop
 
  ## Using math.h for float pi = 4 * atan(1.0)
 pi = 3.14159274101257324219
@@ -125,14 +125,14 @@ pi = 3.14159274101257324219
 INT_MAX :  2147483647
 INT_MIN : -2147483648
 
-i: 0xfffffc8622f8 → 26 outside Odometer
+i: 0xffffc5e25078 → 26 outside Odometer
  ## Odometer is an example of an integer overflow.
-i: 0xfffffc8622ac →  2147483645 → 01111111111111111111111111111101
-i: 0xfffffc8622ac →  2147483646 → 01111111111111111111111111111110
-i: 0xfffffc8622ac →  2147483647 → 01111111111111111111111111111111
-i: 0xfffffc8622ac → -2147483648 → 10000000000000000000000000000000
-i: 0xfffffc8622ac → -2147483647 → 10000000000000000000000000000001
-i: 0xfffffc8622ac → -2147483646 → 10000000000000000000000000000010
+i: 0xffffc5e2501c →  2147483645 → 7ffffffd → 01111111111111111111111111111101
+i: 0xffffc5e2501c →  2147483646 → 7ffffffe → 01111111111111111111111111111110
+i: 0xffffc5e2501c →  2147483647 → 7fffffff → 01111111111111111111111111111111
+i: 0xffffc5e2501c → -2147483648 → 80000000 → 10000000000000000000000000000000
+i: 0xffffc5e2501c → -2147483647 → 80000001 → 10000000000000000000000000000001
+i: 0xffffc5e2501c → -2147483646 → 80000002 → 10000000000000000000000000000010
 ```
 ```powershell
 $computing = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/Computing

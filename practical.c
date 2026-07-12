@@ -28,21 +28,21 @@ int main(){
     i++;
   }
   h2("alphabet[i] with while until \'\\0\' null terminator\n");
-  h2("alphabet[i] with for(i=0;i<26;i++): address → char → decimal → binary\n");
+  h2("alphabet[i] with for(i=0;i<26;i++): address → char → decimal → hex → binary\n");
 
   for(i=0;i<26;i++){
     char lowercase = BitShiftMask(alphabet[i]);
-    printf("%p → %c → %d → %b | %p → %c → %3d → %b\n",
-      (void *)&alphabet[i],alphabet[i],alphabet[i],alphabet[i],
-      (void *)&lowercase,lowercase,lowercase,lowercase
+    printf("%p → %c → %d → %x → %b | %p → %c → %3d → %x → %b\n",
+      (void *)&alphabet[i],alphabet[i],alphabet[i],alphabet[i],alphabet[i],
+      (void *)&lowercase,lowercase,lowercase,lowercase,lowercase
     );
   }
   h2("character with for(character=65;character<91;character++):\n");
   for(character=65;character<91;character++){
     char lowercase = BitShiftMask(character);
-    printf("%p → %c → %d → %b | %p → %c → %3d → %b\n",
-      (void *)&character,character,character,character,
-      (void *)&lowercase,lowercase,lowercase,lowercase
+    printf("%p → %c → %d → %x → %b | %p → %c → %3d → %x → %b\n",
+      (void *)&character,character,character,character,character,
+      (void *)&lowercase,lowercase,lowercase,lowercase,lowercase
     );
   }
   printf("\ncharacter: %p → %c → %d after for loop\n\n",
@@ -91,7 +91,7 @@ void Odometer()
   */
   int i;
   for(i=INT_MAX-2;i<=INT_MAX;i++){
-    printf("i: %p → %11i → %032b\n", (void *)&i,i,i);
+    printf("i: %p → %11i → %x → %032b\n", (void *)&i,i,i,i);
     if(i==INT_MIN+2){
       break;
     }
