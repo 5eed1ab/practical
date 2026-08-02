@@ -31,90 +31,112 @@ Byte                        Unit of digital information, usually 8 bits
 ASCII                       Character encoding standard
 C (programming language)    General-purpose programming language
 Unix                        Family of computer operating systems
-OpenZFS                     Open-source implementation of ZFS file system
 Git                         Distributed version control software system
 ThinkPad                    Business laptops and tablets series from Lenovo
-Windows Subsystem for Linux Feature for a Linux environment in Windows
-Arch Linux                  Rolling release Linux distribution
+PowerShell                  Cross-platform shell based on .NET technology
+WSL                         Feature for a Linux environment in Windows
+Red Hat                     American open source software company
+KVM                         Virtualization module in the Linux kernel
 Hyper-V                     Native hypervisor by Microsoft
+UTM (software)              Virtual machine software
+PXE boot                    Standard for booting from a server
+OpenZFS                     Open-source implementation of ZFS file system
 FreeBSD                     Free and open-source Unix-like operating system
 Gitea                       Free forge based on Git written in Go
 Forge (software)            Platform for developing computer applications
 ```
 
 ## Practical Ca7 C Example
-avoid cut-in-paste, The more you type the faster you get. Taking time to type the examples yourself actually accelerates retention. To encourage this, code examles will be images.
+- avoid cut-in-paste, The more you type the faster you get. Taking time to type the examples yourself actually accelerates retention. To encourage this, code examles will be images.
+- asciiCa7 generated from uploading Ca7header.jpg to [Image to ASCII Art](https://www.asciiart.eu/image-to-ascii)
 
-![practical.c-v0.1.1](https://5eed1ab.com//images/practical.c-v0.1.1.png)
-```bash 
-git config --global user.email ca7@5eed1ab.com
-git config --global user.name "Practical Ca7"Practical Ca7 C Example
-gcc -o practical practical.c
-./practical
-git add practical.c README.md
-git commit -m "Practical Ca7 C Example"
-git push
-```
+![practical.c-v0.1.2](https://5eed1ab.com/images/practical.c-v0.1.3.png)
+### `cd git/practical;make;./practical`
 
 ```markdown
-Hello Practical Ca7
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A 65 1000001 a  97 1100001
-B 66 1000010 b  98 1100010
-C 67 1000011 c  99 1100011
-D 68 1000100 d 100 1100100
-E 69 1000101 e 101 1100101
-F 70 1000110 f 102 1100110
-G 71 1000111 g 103 1100111
-H 72 1001000 h 104 1101000
-I 73 1001001 i 105 1101001
-J 74 1001010 j 106 1101010
-K 75 1001011 k 107 1101011
-L 76 1001100 l 108 1101100
-M 77 1001101 m 109 1101101
-N 78 1001110 n 110 1101110
-O 79 1001111 o 111 1101111
-P 80 1010000 p 112 1110000
-Q 81 1010001 q 113 1110001
-R 82 1010010 r 114 1110010
-S 83 1010011 s 115 1110011
-T 84 1010100 t 116 1110100
-U 85 1010101 u 117 1110101
-V 86 1010110 v 118 1110110
-W 87 1010111 w 119 1110111
-X 88 1011000 x 120 1111000
-Y 89 1011001 y 121 1111001
-Z 90 1011010 z 122 1111010
+Practical Ca7                                                            1000001
+▒▒░░░░░   ░▒▓█████▒░░░  ░░  ░░▓▒▒ ░▒▒░ ░░▓▓░░▓▒░░░░ ▒░ ░  ▒████████▓▒░ ░░░░░░░▒▒
+▒▒▒░░░░░░▒███▓▓▒▒▒▓███▒░    ░▒▒░▒░░▓ ░░░▒▒▒▓▓▓▓▒░ ░░░░▒████▒▓░▓▓▓▓██▓░░░▓▒░░░░▒▒
+░▒▒░░░░░ ░▓█▒░░▒▒ ░█░▒▓█▓░░   ░▓▒░▒░▒▒░░░░░▒▒█▓░░░░░▓███▒░█░▒▒░ ░░▓▓░   ░▒▓▒░▒▒░
+▒░░░░░░░  ▒█░  ░░░███░▒▒▒▒░░  ░▒▒░▒▒▒░░░░░▒▒▓▓▒░ ░░█▓▓▒▒▒███░░░░  █▒      ░░▒▒▒▒
+▓░▒▒░░░░ ░ ░▓░  ░░███░░░░░█░  ░░░▒░░░░░░░▒▒▒▓▓▒ ░░▒██▒░▒░███░░░░ ▓▒    ░ ░░▒▓▓▒▒
+▒░░▒░░░     ░▒▓  ░ █░░░ ░██▓░░░▒▒░ ░   ░░░▒░▒▒▒░░░▓██▓░░▒░█ ░░ ▓░   ░░░░ ░░▒▓▓▒▒
+▒░░▒▒▒░░░░      ▒▓▒▒▓▓▓▓▓▒▒▒░░▒░░░░░░░░░░▒▒▒▓▓▒▒▒▒▓▓▒▓▒▓▓▓▓▓░░     ░░░░░▒░▒▓▓▓▓▒
+character: 0xffffc5e25077 → A → 65
+ABCDEFGHIJKLMNOPQRSTUVWXYZ ## alphabet with printf %s
+ABCDEFGHIJKLMNOPQRSTUVWXYZ ## alphabet[i] with while until '\0' null terminator
+ ## alphabet[i] with for(i=0;i<26;i++): address → char → decimal → hex → binary
+0xffffc5e25058 → A → 65 → 41 → 1000001 | 0xffffc5e25057 → a →  97 → 61 → 1100001
+0xffffc5e25059 → B → 66 → 42 → 1000010 | 0xffffc5e25057 → b →  98 → 62 → 1100010
+0xffffc5e2505a → C → 67 → 43 → 1000011 | 0xffffc5e25057 → c →  99 → 63 → 1100011
+0xffffc5e2505b → D → 68 → 44 → 1000100 | 0xffffc5e25057 → d → 100 → 64 → 1100100
+0xffffc5e2505c → E → 69 → 45 → 1000101 | 0xffffc5e25057 → e → 101 → 65 → 1100101
+0xffffc5e2505d → F → 70 → 46 → 1000110 | 0xffffc5e25057 → f → 102 → 66 → 1100110
+0xffffc5e2505e → G → 71 → 47 → 1000111 | 0xffffc5e25057 → g → 103 → 67 → 1100111
+0xffffc5e2505f → H → 72 → 48 → 1001000 | 0xffffc5e25057 → h → 104 → 68 → 1101000
+0xffffc5e25060 → I → 73 → 49 → 1001001 | 0xffffc5e25057 → i → 105 → 69 → 1101001
+0xffffc5e25061 → J → 74 → 4a → 1001010 | 0xffffc5e25057 → j → 106 → 6a → 1101010
+0xffffc5e25062 → K → 75 → 4b → 1001011 | 0xffffc5e25057 → k → 107 → 6b → 1101011
+0xffffc5e25063 → L → 76 → 4c → 1001100 | 0xffffc5e25057 → l → 108 → 6c → 1101100
+0xffffc5e25064 → M → 77 → 4d → 1001101 | 0xffffc5e25057 → m → 109 → 6d → 1101101
+0xffffc5e25065 → N → 78 → 4e → 1001110 | 0xffffc5e25057 → n → 110 → 6e → 1101110
+0xffffc5e25066 → O → 79 → 4f → 1001111 | 0xffffc5e25057 → o → 111 → 6f → 1101111
+0xffffc5e25067 → P → 80 → 50 → 1010000 | 0xffffc5e25057 → p → 112 → 70 → 1110000
+0xffffc5e25068 → Q → 81 → 51 → 1010001 | 0xffffc5e25057 → q → 113 → 71 → 1110001
+0xffffc5e25069 → R → 82 → 52 → 1010010 | 0xffffc5e25057 → r → 114 → 72 → 1110010
+0xffffc5e2506a → S → 83 → 53 → 1010011 | 0xffffc5e25057 → s → 115 → 73 → 1110011
+0xffffc5e2506b → T → 84 → 54 → 1010100 | 0xffffc5e25057 → t → 116 → 74 → 1110100
+0xffffc5e2506c → U → 85 → 55 → 1010101 | 0xffffc5e25057 → u → 117 → 75 → 1110101
+0xffffc5e2506d → V → 86 → 56 → 1010110 | 0xffffc5e25057 → v → 118 → 76 → 1110110
+0xffffc5e2506e → W → 87 → 57 → 1010111 | 0xffffc5e25057 → w → 119 → 77 → 1110111
+0xffffc5e2506f → X → 88 → 58 → 1011000 | 0xffffc5e25057 → x → 120 → 78 → 1111000
+0xffffc5e25070 → Y → 89 → 59 → 1011001 | 0xffffc5e25057 → y → 121 → 79 → 1111001
+0xffffc5e25071 → Z → 90 → 5a → 1011010 | 0xffffc5e25057 → z → 122 → 7a → 1111010
+ ## character with for(character=65;character<91;character++):
+0xffffc5e25077 → A → 65 → 41 → 1000001 | 0xffffc5e25056 → a →  97 → 61 → 1100001
+0xffffc5e25077 → B → 66 → 42 → 1000010 | 0xffffc5e25056 → b →  98 → 62 → 1100010
+0xffffc5e25077 → C → 67 → 43 → 1000011 | 0xffffc5e25056 → c →  99 → 63 → 1100011
+0xffffc5e25077 → D → 68 → 44 → 1000100 | 0xffffc5e25056 → d → 100 → 64 → 1100100
+0xffffc5e25077 → E → 69 → 45 → 1000101 | 0xffffc5e25056 → e → 101 → 65 → 1100101
+0xffffc5e25077 → F → 70 → 46 → 1000110 | 0xffffc5e25056 → f → 102 → 66 → 1100110
+0xffffc5e25077 → G → 71 → 47 → 1000111 | 0xffffc5e25056 → g → 103 → 67 → 1100111
+0xffffc5e25077 → H → 72 → 48 → 1001000 | 0xffffc5e25056 → h → 104 → 68 → 1101000
+0xffffc5e25077 → I → 73 → 49 → 1001001 | 0xffffc5e25056 → i → 105 → 69 → 1101001
+0xffffc5e25077 → J → 74 → 4a → 1001010 | 0xffffc5e25056 → j → 106 → 6a → 1101010
+0xffffc5e25077 → K → 75 → 4b → 1001011 | 0xffffc5e25056 → k → 107 → 6b → 1101011
+0xffffc5e25077 → L → 76 → 4c → 1001100 | 0xffffc5e25056 → l → 108 → 6c → 1101100
+0xffffc5e25077 → M → 77 → 4d → 1001101 | 0xffffc5e25056 → m → 109 → 6d → 1101101
+0xffffc5e25077 → N → 78 → 4e → 1001110 | 0xffffc5e25056 → n → 110 → 6e → 1101110
+0xffffc5e25077 → O → 79 → 4f → 1001111 | 0xffffc5e25056 → o → 111 → 6f → 1101111
+0xffffc5e25077 → P → 80 → 50 → 1010000 | 0xffffc5e25056 → p → 112 → 70 → 1110000
+0xffffc5e25077 → Q → 81 → 51 → 1010001 | 0xffffc5e25056 → q → 113 → 71 → 1110001
+0xffffc5e25077 → R → 82 → 52 → 1010010 | 0xffffc5e25056 → r → 114 → 72 → 1110010
+0xffffc5e25077 → S → 83 → 53 → 1010011 | 0xffffc5e25056 → s → 115 → 73 → 1110011
+0xffffc5e25077 → T → 84 → 54 → 1010100 | 0xffffc5e25056 → t → 116 → 74 → 1110100
+0xffffc5e25077 → U → 85 → 55 → 1010101 | 0xffffc5e25056 → u → 117 → 75 → 1110101
+0xffffc5e25077 → V → 86 → 56 → 1010110 | 0xffffc5e25056 → v → 118 → 76 → 1110110
+0xffffc5e25077 → W → 87 → 57 → 1010111 | 0xffffc5e25056 → w → 119 → 77 → 1110111
+0xffffc5e25077 → X → 88 → 58 → 1011000 | 0xffffc5e25056 → x → 120 → 78 → 1111000
+0xffffc5e25077 → Y → 89 → 59 → 1011001 | 0xffffc5e25056 → y → 121 → 79 → 1111001
+0xffffc5e25077 → Z → 90 → 5a → 1011010 | 0xffffc5e25056 → z → 122 → 7a → 1111010
 
+character: 0xffffc5e25077 → [ → 91 after for loop
+
+ ## Using math.h for float pi = 4 * atan(1.0)
 pi = 3.14159274101257324219
-CHAR_MIN : -128
-CHAR_MAX : 127
-UCHAR_MAX : 255
+
+ ## Using limits.h to discover: 
+INT_MAX :  2147483647
 INT_MIN : -2147483648
-INT_MAX : 2147483647
-odometer : 2147483637
-odometer : 2147483638
-odometer : 2147483639
-odometer : 2147483640
-odometer : 2147483641
-odometer : 2147483642
-odometer : 2147483643
-odometer : 2147483644
-odometer : 2147483645
-odometer : 2147483646
-odometer : 2147483647
-odometer : -2147483648
-odometer : -2147483647
-odometer : -2147483646
-odometer : -2147483645
-odometer : -2147483644
-odometer : -2147483643
-odometer : -2147483642
-odometer : -2147483641
-odometer : -2147483640
-odometer : -2147483639
-odometer : -2147483638
+
+i: 0xffffc5e25078 → 26 outside Odometer
+ ## Odometer is an example of an integer overflow.
+i: 0xffffc5e2501c →  2147483645 → 7ffffffd → 01111111111111111111111111111101
+i: 0xffffc5e2501c →  2147483646 → 7ffffffe → 01111111111111111111111111111110
+i: 0xffffc5e2501c →  2147483647 → 7fffffff → 01111111111111111111111111111111
+i: 0xffffc5e2501c → -2147483648 → 80000000 → 10000000000000000000000000000000
+i: 0xffffc5e2501c → -2147483647 → 80000001 → 10000000000000000000000000000001
+i: 0xffffc5e2501c → -2147483646 → 80000002 → 10000000000000000000000000000010
 ```
 ```powershell
 $computing = Invoke-RestMethod https://en.wikipedia.org/api/rest_v1/page/summary/Computing
@@ -288,4 +310,6 @@ extract : Gitea is a forge software package for hosting software development ver
 extract : In free and open-source software (FOSS) development communities, a forge is a web-based
           collaborative software platform for both developing and sharing computer applications.
 ```
-
+|  128 |  64 |  32 |  16 |   8 |   4 |   2 |   1 |      |      |   100 |   10 |   1 |
+|  --: | --: | --: | --: | --: | --: | --: | --: |  --: |  --: |   --: |  --: | --: |
+|    1 |   1 |   1 |   1 |   1 |   1 |   1 |   1 |      |      |      2|    5|     5|   
