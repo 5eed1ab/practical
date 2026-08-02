@@ -31,12 +31,16 @@ Byte                        Unit of digital information, usually 8 bits
 ASCII                       Character encoding standard
 C (programming language)    General-purpose programming language
 Unix                        Family of computer operating systems
-OpenZFS                     Open-source implementation of ZFS file system
 Git                         Distributed version control software system
 ThinkPad                    Business laptops and tablets series from Lenovo
-Windows Subsystem for Linux Feature for a Linux environment in Windows
-Arch Linux                  Rolling release Linux distribution
+PowerShell                  Cross-platform shell based on .NET technology
+WSL                         Feature for a Linux environment in Windows
+Red Hat                     American open source software company
+KVM                         Virtualization module in the Linux kernel
 Hyper-V                     Native hypervisor by Microsoft
+UTM (software)              Virtual machine software
+PXE boot                    Standard for booting from a server
+OpenZFS                     Open-source implementation of ZFS file system
 FreeBSD                     Free and open-source Unix-like operating system
 Gitea                       Free forge based on Git written in Go
 Forge (software)            Platform for developing computer applications
